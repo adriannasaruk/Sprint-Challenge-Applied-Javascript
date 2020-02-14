@@ -29,15 +29,15 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the DOM?
-
+The Document Object Model (DOM) is a programming interface for HTML documents. It represents the page so that programs can change the document structure, style, and content.
 2. What is an event?
-
+DOM Events are sent to notify code of interesting things that have taken place.
 3. What is an event listener?
-
+You would add an event listener to a node (in this case, window) and tell it to listen for the keydown event. 
 4. Why would we convert a NodeList into an Array?
-
+The querySelectorAll method returns an array-like object called a node list. These data structures are referred to as “Array-like”, because they appear as an array, but can not be used with array methods like map and forEach. Thats why we convert.
 5. What is a component?
-
+Web components are a set of web platform APIs that allow you to create new custom, reusable, encapsulated HTML tags
 ### Git Set up
 
 * [ ] Fork the project into your GitHub user account
